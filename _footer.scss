@@ -1,0 +1,35 @@
+.mainfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(168, 58%, 69%);
+}
+
+.footer-logo {
+    padding: 2.5em 2em;
+    #logo {
+        fill: hsl(167, 40%, 24%);
+    }
+}
+
+.footer-nav {
+    width: 80%;
+    padding-bottom: 2em;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    a {
+        text-decoration: none;
+        color: hsl(168, 34%, 41%);
+    }
+}
+
+.social-links {
+    width: 60%;
+    display: flex;
+    padding: 4em 0;
+    justify-content: space-around;
+}

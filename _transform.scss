@@ -1,0 +1,46 @@
+.sec,
+.transform,
+.transform-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.egg,
+.tumblr {
+    width: 100%;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Fraunces';
+    padding: 2em 1em 1em;
+    color: var(--subhead-col);
+}
+
+.description {
+    text-align: center;
+    padding: 1em 1.1em;
+    color: var(--desc-col);
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.learnmore {
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-size: .9rem;
+    text-transform: uppercase;
+    border-bottom: .3rem solid rgb(219, 219, 10);
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    margin-bottom: 3.5em;
+    padding-top: 1.5em;
+}
+
+.learnmore.second {
+    border-bottom: .3em solid rgb(251, 128, 149);
+}

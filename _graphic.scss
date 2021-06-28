@@ -1,0 +1,36 @@
+.graphics.graphic-design {
+    background: url("../images/mobile/image-graphic-design.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.graphics.photography {
+    background: url("../images/mobile/image-photography.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subheading.graphic,
+.subheading.photography {
+    font-size: 1.4rem;
+    padding-top: 90%;
+}
+
+.description.graphic,
+.description.photography {
+    padding-top: 0;
+    font-size: .8rem;
+    padding-bottom: 4em;
+}
+
+.subheading.graphic,
+.description.graphic {
+    color: hsl(167, 40%, 24%);
+}
+
+.subheading.photography,
+.description.photography {
+    color: hsl(198, 62%, 26%);
+}
